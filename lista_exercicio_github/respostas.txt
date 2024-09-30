@@ -1,0 +1,59 @@
+### 1. O que é um fork no GitHub e quando utilizá-lo?
+Um fork no GitHub é uma cópia de um repositório que permite que você faça alterações livremente sem afetar o repositório original. Isso é especialmente útil quando você deseja contribuir para um projeto de outra pessoa ou organizar suas próprias ideias.
+
+**Situação prática**: Suponha que você encontre um repositório de um projeto de software que acha interessante, mas gostaria de adicionar novos recursos ou corrigir bugs. Você faria um fork desse repositório para que pudesse experimentar essas mudanças em sua própria cópia, sem interferir no trabalho do autor original.
+
+### 2. Enviando alterações de volta ao repositório original por meio de um Pull Request
+Depois de fazer alterações no repositório que você forkou, o próximo passo é enviar essas mudanças de volta ao repositório original. Isso é feito através de um **Pull Request (PR)**. O processo é o seguinte:
+
+1. **Commit das alterações**: Primeiro, você faz commit das suas alterações na sua cópia do repositório.
+2. **Push para o GitHub**: Em seguida, você faz um push das suas alterações para o seu repositório forkado no GitHub.
+3. **Criar Pull Request**: Vá para a página do repositório original e clique no botão "New Pull Request". Você escolherá seu fork como a base para comparar as alterações.
+4. **Adicionar descrição**: Na página do Pull Request, você deve fornecer uma descrição clara das mudanças que fez e por que elas são necessárias.
+5. **Enviar**: Finalmente, clique em "Create Pull Request" para enviar suas alterações para revisão.
+
+### 3. Revisando um Pull Request recebido
+Ao receber um Pull Request no seu repositório original, você deve seguir estas etapas:
+
+1. **Notificação**: Você receberá uma notificação sobre o Pull Request.
+2. **Revisar as alterações**: Clique no PR para revisar as alterações propostas. Você pode ver o código alterado e os commits feitos.
+3. **Testar as alterações**: Se possível, faça testes localmente para garantir que as mudanças funcionam como esperado.
+4. **Feedback**: Se precisar de ajustes, você pode deixar comentários e sugestões diretamente no Pull Request.
+5. **Mesclar**: Se tudo estiver correto, clique em "Merge" para mesclar as alterações ao seu repositório. Se desejar, você pode usar "Squash and merge" para combinar os commits em um só.
+
+### 4. Importância da descrição e documentação no Pull Request
+Incluir uma descrição detalhada e documentação no seu Pull Request é crucial porque ajuda os revisores a entenderem o contexto das mudanças. Uma boa descrição deve incluir:
+
+- **Objetivo das alterações**: Explique por que você fez as mudanças.
+- **Problemas abordados**: Liste quaisquer bugs que você corrigiu ou recursos que você adicionou.
+- **Instruções**: Se houver alterações na configuração ou uso, forneça instruções claras.
+- **Referências**: Se houver problemas relacionados, inclua links para essas questões.
+
+Isso facilita a revisão e aumenta as chances de seu PR ser aceito rapidamente.
+
+### 5. Passos para criar um repositório
+Para criar um repositório no GitHub, siga estas etapas:
+
+1. **Login**: Faça login na sua conta do GitHub.
+2. **Novo repositório**: Clique no botão "New" ou “+” na parte superior da página e selecione "New repository".
+3. **Preencher informações**: Dê um nome ao seu repositório e, opcionalmente, uma descrição.
+4. **Configurações**: Escolha se o repositório será público ou privado.
+5. **Criar**: Clique no botão "Create repository" para finalizar.
+
+### 6. Passos para criar um repositório com o Fork
+Para criar um repositório usando o Fork, faça o seguinte:
+
+1. **Encontrar o repositório**: Navegue até o repositório que você deseja forkear.
+2. **Fork**: Clique no botão "Fork" no canto superior direito da página.
+3. **Escolher onde**: Se você tem várias contas ou organizações, escolha onde deseja criar o fork.
+4. **Acessar o fork**: Após alguns momentos, você será redirecionado para sua cópia do repositório.
+
+### 10. Passos para realizar o Pull Request nos repositórios Projeto(A e B) que são um Fork
+Após fazer alterações nos repositórios forkados (Projeto A e B), siga esses passos para realizar um Pull Request:
+
+1. **Commit e Push**: Faça commit das suas alterações no seu repositório forkado e faça um push para o GitHub.
+2. **Navegar ao repositório original**: Vá para o repositório original do qual você forkou.
+3. **Criar Pull Request**: Clique em "New Pull Request".
+4. **Comparar alterações**: Certifique-se de que seu fork está selecionado e compare as alterações.
+5. **Descrição e feedback**: Adicione uma descrição das alterações e, se necessário, forneça feedback sobre o que foi modificado.
+6. **Criar PR**: Clique em "Create Pull Request" para enviar.
